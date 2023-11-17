@@ -3,7 +3,10 @@ import { Post } from "./Post";
 export function App() {
   return (
     <div>
-      <Post />
+      <Post
+        author="Abraão Borges"
+        content="Sou um estudante de programação apaixonado por criar soluções para problemas complexos usando tecnologia."
+      />
       <Post />
       <Post />
       <Post />
@@ -11,4 +14,3 @@ export function App() {
     </div>
   );
 }
-

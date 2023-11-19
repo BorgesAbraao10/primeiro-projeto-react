@@ -10,18 +10,16 @@ export function App() {
       <Header />
 
       <div className={style.wrapper}></div>
-      <aside>
-        sidebar
-      </aside>
+      <aside>sidebar</aside>
       <main>
-      <Post
-        author="Abraão Borges"
-        content="Sou um estudante de programação apaixonado por criar soluções para problemas complexos usando tecnologia."
-      />
-      <Post
-        author="Albert Einsten"
-        content="Diante de Deus todos somos igualmente sábios e igualmente tolos."
-      />
+        <Post
+          author="Abraão Borges"
+          content="Sou um estudante de programação apaixonado por criar soluções para problemas complexos usando tecnologia."
+        />
+        <Post
+          author="Albert Einsten"
+          content="Diante de Deus todos somos igualmente sábios e igualmente tolos."
+        />
       </main>
     </div>
   );

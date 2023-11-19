@@ -1,11 +1,12 @@
 import { Post } from "./Post";
 import { Header } from "./components/header";
-import "./style.css";
+
+import "./global.css";
 
 export function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Post
         author="Abraão Borges"
         content="Sou um estudante de programação apaixonado por criar soluções para problemas complexos usando tecnologia."
